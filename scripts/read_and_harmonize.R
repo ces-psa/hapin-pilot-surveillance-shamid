@@ -77,7 +77,7 @@ surv1_c36 <- surv1 %>%
     hypothermia = e6,
     unable_eat = e7,
     grunting = e8,
-    intercostal_tiraje_severe = e9,
+    chest_indrawing_severe = e9,
     cyanosis = e10,
     pneumo_severa_oms = e11
     
@@ -121,7 +121,7 @@ surv2_c36 <- surv2 %>%
     unable_eat = c7,
     no_movement = c7_1,
     grunting = c8,
-    intercostal_tiraje_severe = c9,
+    chest_indrawing_severe = c9,
     cyanosis = c10,
     nasal_flare = c11,
     tracheal_tugging = c12,
