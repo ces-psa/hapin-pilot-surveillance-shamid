@@ -1,0 +1,19 @@
+# ignore data
+data/
+docs/
+output/
+
+# ignore documents
+pdf
+doc*
+html
+ppt*
+png
+jp*g
+
+
+# Rstudio files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
