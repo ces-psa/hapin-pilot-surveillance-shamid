@@ -196,5 +196,5 @@ em_c34 <- em_pilot %>%
 
 gt_c34 <- surv2 %>%
   select(record_id, redcap_event_name, matches("^c34_")) %>%
-  filter(!is.na(c34_date))
-
+  filter(!is.na(c34_date),
+         #remove the Hapin cases from the LUS data
