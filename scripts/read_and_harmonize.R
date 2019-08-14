@@ -198,3 +198,6 @@ gt_c34 <- surv2 %>%
   select(record_id, redcap_event_name, matches("^c34_")) %>%
   filter(!is.na(c34_date),
          #remove the Hapin cases from the LUS data
+         !grepl("^3[35][0-9]{3}$", record_id)) 
+
+
