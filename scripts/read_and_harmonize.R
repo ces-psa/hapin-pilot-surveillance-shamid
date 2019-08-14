@@ -19,7 +19,7 @@ em_pilot <- read_csv(file = "data/export/HAPINGuatemala_DATA_2018-09-17_1807.csv
 surv1 <- read_csv(file = "data/export/HAPINVigilanciaGuate_DATA_2019-07-30_0923.csv")
 
 # Data collected for the second version of the pneumonia surveillance in GT
-surv2 <- read_csv(file = "data/export/PilotoVigilanciaNeum_DATA_2019-07-30_0921.csv")
+surv2 <- read_csv(file = "data/export/PilotoVigilanciaNeum_DATA_2019-08-14_1136.csv")
 
 
 
